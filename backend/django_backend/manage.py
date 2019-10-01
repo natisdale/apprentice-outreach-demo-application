@@ -1,7 +1,12 @@
 #!/usr/bin/env python
 import os
 import sys
-
+Django==2.*
+django-allauth
+pylint
+pylint-django
+djangorestframework
+django-cors-headers==2.5.2
 if __name__ == '__main__':
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'django_backend.settings')
     try:
